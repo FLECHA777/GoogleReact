@@ -17,7 +17,7 @@
    display: flex;
    border: 1px solid #E3E3E3;
    border-radius: 8px;
-   padding-left: 5px;
+   padding-inline: 5px;
 }
 
 .search input{
@@ -40,6 +40,19 @@
    border:0;
    background-color: transparent;
    display: flex;
-   justify-content: center;
    align-items: center;
+}
+
+.twoB{
+   display: flex;
+   justify-content: end;
+   margin-left: auto;
+}
+
+.twoBs{
+   display: flex;
+   align-items: center;
+   border: 0;
+   background-color: transparent;
+   padding-inline: 3px;
 }
