@@ -1,4 +1,4 @@
-.footer {
+.footer{
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -9,6 +9,7 @@
     font-size: 6px;
     font-weight: 300;
     background-color: #F2F2F2;
+    color: #707070;
 }
 .brasil p{
     padding: 5px;
@@ -35,4 +36,10 @@
 .footer2 ul li {
     list-style: none;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.footer2 ul li a{
+    text-decoration: none;
+    color: #707070;
 }
