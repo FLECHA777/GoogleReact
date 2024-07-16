@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+    font-family:'Roboto';
+    font-size: 6px;
+    font-weight: 300;
+    background-color: #F2F2F2;
+}
+.brasil p{
+    padding: 5px;
+    cursor: pointer;
+}
+.footer2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-content: end;
+    border-top: 1px solid #DADCE0;
+}
+
+.footer2 ul {
+    display: flex;
+    gap: 25px;
+    padding: 5px;
+}
+
+.ulF {
+    display: flex;
+    justify-content: end;
+}
+
+.footer2 ul li {
+    list-style: none;
+    cursor: pointer;
+}
