@@ -10,12 +10,12 @@ function GooSearch() {
             <img src={GooImg} alt='erro' />
             <nav className={styles.search}>
                 <button className={styles.buttonS}>
-                    <GoSearch size={10} color='#7b7b7b'/>
+                    <GoSearch size={18} color='#7b7b7b'/>
                 </button>
                 <input type="text" placeholder="Pesquise no Google ou digite um URL" />
                 <div className={styles.twoB}>
-                    <button className={styles.twoBs}><FaMicrophone size={10} color='#7b7b7b'/></button>
-                    <button className={styles.twoBs}><VscDeviceCamera size={10} color='#7b7b7b'/></button>
+                    <button className={styles.twoBs}><FaMicrophone size={18} color='#7b7b7b'/></button>
+                    <button className={styles.twoBs}><VscDeviceCamera size={18} color='#7b7b7b'/></button>
                 </div>
             </nav>
         </div>

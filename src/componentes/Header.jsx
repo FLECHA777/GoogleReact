@@ -5,15 +5,15 @@ import Person from './img/person.jpg'
 function Header(){
     return(
     <div className={styles.header}>
-        <div><a href="www.gmail.com">Gmail</a>
+        <div><a href="https://www.gmail.com" target='_blank'>Gmail</a>
         </div>
-        <div><a href="www.imagens.com">Imagens</a>
+        <div><a href="https://images.google.com" target='_blank'>Imagens</a>
         </div>
         <div className ="dots">
-            <img src={Dots} alt='erro' width='20px'></img>
+            <img src={Dots} alt='erro' width='33px'></img>
         </div>
         <div className={styles.profile}>
-            <img src={Person} alt="erro" width='20px'></img>
+            <img src={Person} alt="erro" width='44px'></img>
         </div>
     </div>
     )
