@@ -11,8 +11,21 @@
     margin: 40px;
 
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
 
     cursor: pointer;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check a{
+    text-decoration: none; 
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
 }
